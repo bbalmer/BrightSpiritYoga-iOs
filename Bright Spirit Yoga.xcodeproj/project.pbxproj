@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2809CE091CEBD05A00CD9A1B /* SubmitClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2809CE081CEBD05A00CD9A1B /* SubmitClassController.swift */; };
+		284286181CEB36A7003CF386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284286171CEB36A7003CF386 /* AppDelegate.swift */; };
+		2842861A1CEB36A7003CF386 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284286191CEB36A7003CF386 /* HomeController.swift */; };
+		2842861D1CEB36A7003CF386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2842861B1CEB36A7003CF386 /* Main.storyboard */; };
+		284286201CEB36A7003CF386 /* Bright_Spirit_Yoga.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2842861E1CEB36A7003CF386 /* Bright_Spirit_Yoga.xcdatamodeld */; };
+		284286221CEB36A7003CF386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284286211CEB36A7003CF386 /* Assets.xcassets */; };
+		284286251CEB36A7003CF386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284286231CEB36A7003CF386 /* LaunchScreen.storyboard */; };
+		284286301CEB36A7003CF386 /* Bright_Spirit_YogaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2842862F1CEB36A7003CF386 /* Bright_Spirit_YogaTests.swift */; };
+		2842863B1CEB36A7003CF386 /* Bright_Spirit_YogaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2842863A1CEB36A7003CF386 /* Bright_Spirit_YogaUITests.swift */; };
+		284286491CEB386E003CF386 /* StaticUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284286481CEB386E003CF386 /* StaticUtilities.swift */; };
+		2842864C1CEB3AB6003CF386 /* ChooseClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2842864B1CEB3AB6003CF386 /* ChooseClassController.swift */; };
+		2842864F1CEB3D3F003CF386 /* ClassSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2842864E1CEB3D3F003CF386 /* ClassSchedule.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2842862C1CEB36A7003CF386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2842860C1CEB36A7003CF386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 284286131CEB36A7003CF386;
+			remoteInfo = "Bright Spirit Yoga";
+		};
+		284286371CEB36A7003CF386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2842860C1CEB36A7003CF386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 284286131CEB36A7003CF386;
+			remoteInfo = "Bright Spirit Yoga";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2809CE081CEBD05A00CD9A1B /* SubmitClassController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitClassController.swift; sourceTree = "<group>"; };
+		284286141CEB36A7003CF386 /* Bright Spirit Yoga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bright Spirit Yoga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		284286171CEB36A7003CF386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		284286191CEB36A7003CF386 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		2842861C1CEB36A7003CF386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2842861F1CEB36A7003CF386 /* Bright_Spirit_Yoga.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bright_Spirit_Yoga.xcdatamodel; sourceTree = "<group>"; };
+		284286211CEB36A7003CF386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		284286241CEB36A7003CF386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		284286261CEB36A7003CF386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2842862B1CEB36A7003CF386 /* Bright Spirit YogaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bright Spirit YogaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2842862F1CEB36A7003CF386 /* Bright_Spirit_YogaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bright_Spirit_YogaTests.swift; sourceTree = "<group>"; };
+		284286311CEB36A7003CF386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284286361CEB36A7003CF386 /* Bright Spirit YogaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bright Spirit YogaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2842863A1CEB36A7003CF386 /* Bright_Spirit_YogaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bright_Spirit_YogaUITests.swift; sourceTree = "<group>"; };
+		2842863C1CEB36A7003CF386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284286481CEB386E003CF386 /* StaticUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticUtilities.swift; sourceTree = "<group>"; };
+		2842864B1CEB3AB6003CF386 /* ChooseClassController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseClassController.swift; sourceTree = "<group>"; };
+		2842864E1CEB3D3F003CF386 /* ClassSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassSchedule.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		284286111CEB36A7003CF386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284286281CEB36A7003CF386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284286331CEB36A7003CF386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2842860B1CEB36A7003CF386 = {
+			isa = PBXGroup;
+			children = (
+				284286161CEB36A7003CF386 /* Bright Spirit Yoga */,
+				2842862E1CEB36A7003CF386 /* Bright Spirit YogaTests */,
+				284286391CEB36A7003CF386 /* Bright Spirit YogaUITests */,
+				284286151CEB36A7003CF386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		284286151CEB36A7003CF386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284286141CEB36A7003CF386 /* Bright Spirit Yoga.app */,
+				2842862B1CEB36A7003CF386 /* Bright Spirit YogaTests.xctest */,
+				284286361CEB36A7003CF386 /* Bright Spirit YogaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		284286161CEB36A7003CF386 /* Bright Spirit Yoga */ = {
+			isa = PBXGroup;
+			children = (
+				2842864D1CEB3D34003CF386 /* Model */,
+				284286171CEB36A7003CF386 /* AppDelegate.swift */,
+				2842864A1CEB3AA7003CF386 /* Controllers */,
+				2842861B1CEB36A7003CF386 /* Main.storyboard */,
+				284286211CEB36A7003CF386 /* Assets.xcassets */,
+				284286231CEB36A7003CF386 /* LaunchScreen.storyboard */,
+				284286261CEB36A7003CF386 /* Info.plist */,
+				2842861E1CEB36A7003CF386 /* Bright_Spirit_Yoga.xcdatamodeld */,
+				284286481CEB386E003CF386 /* StaticUtilities.swift */,
+			);
+			path = "Bright Spirit Yoga";
+			sourceTree = "<group>";
+		};
+		2842862E1CEB36A7003CF386 /* Bright Spirit YogaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2842862F1CEB36A7003CF386 /* Bright_Spirit_YogaTests.swift */,
+				284286311CEB36A7003CF386 /* Info.plist */,
+			);
+			path = "Bright Spirit YogaTests";
+			sourceTree = "<group>";
+		};
+		284286391CEB36A7003CF386 /* Bright Spirit YogaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2842863A1CEB36A7003CF386 /* Bright_Spirit_YogaUITests.swift */,
+				2842863C1CEB36A7003CF386 /* Info.plist */,
+			);
+			path = "Bright Spirit YogaUITests";
+			sourceTree = "<group>";
+		};
+		2842864A1CEB3AA7003CF386 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				284286191CEB36A7003CF386 /* HomeController.swift */,
+				2842864B1CEB3AB6003CF386 /* ChooseClassController.swift */,
+				2809CE081CEBD05A00CD9A1B /* SubmitClassController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2842864D1CEB3D34003CF386 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2842864E1CEB3D3F003CF386 /* ClassSchedule.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		284286131CEB36A7003CF386 /* Bright Spirit Yoga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2842863F1CEB36A7003CF386 /* Build configuration list for PBXNativeTarget "Bright Spirit Yoga" */;
+			buildPhases = (
+				284286101CEB36A7003CF386 /* Sources */,
+				284286111CEB36A7003CF386 /* Frameworks */,
+				284286121CEB36A7003CF386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bright Spirit Yoga";
+			productName = "Bright Spirit Yoga";
+			productReference = 284286141CEB36A7003CF386 /* Bright Spirit Yoga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2842862A1CEB36A7003CF386 /* Bright Spirit YogaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284286421CEB36A7003CF386 /* Build configuration list for PBXNativeTarget "Bright Spirit YogaTests" */;
+			buildPhases = (
+				284286271CEB36A7003CF386 /* Sources */,
+				284286281CEB36A7003CF386 /* Frameworks */,
+				284286291CEB36A7003CF386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2842862D1CEB36A7003CF386 /* PBXTargetDependency */,
+			);
+			name = "Bright Spirit YogaTests";
+			productName = "Bright Spirit YogaTests";
+			productReference = 2842862B1CEB36A7003CF386 /* Bright Spirit YogaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		284286351CEB36A7003CF386 /* Bright Spirit YogaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284286451CEB36A7003CF386 /* Build configuration list for PBXNativeTarget "Bright Spirit YogaUITests" */;
+			buildPhases = (
+				284286321CEB36A7003CF386 /* Sources */,
+				284286331CEB36A7003CF386 /* Frameworks */,
+				284286341CEB36A7003CF386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				284286381CEB36A7003CF386 /* PBXTargetDependency */,
+			);
+			name = "Bright Spirit YogaUITests";
+			productName = "Bright Spirit YogaUITests";
+			productReference = 284286361CEB36A7003CF386 /* Bright Spirit YogaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2842860C1CEB36A7003CF386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Remlab;
+				TargetAttributes = {
+					284286131CEB36A7003CF386 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2842862A1CEB36A7003CF386 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 284286131CEB36A7003CF386;
+					};
+					284286351CEB36A7003CF386 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 284286131CEB36A7003CF386;
+					};
+				};
+			};
+			buildConfigurationList = 2842860F1CEB36A7003CF386 /* Build configuration list for PBXProject "Bright Spirit Yoga" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2842860B1CEB36A7003CF386;
+			productRefGroup = 284286151CEB36A7003CF386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				284286131CEB36A7003CF386 /* Bright Spirit Yoga */,
+				2842862A1CEB36A7003CF386 /* Bright Spirit YogaTests */,
+				284286351CEB36A7003CF386 /* Bright Spirit YogaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		284286121CEB36A7003CF386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284286251CEB36A7003CF386 /* LaunchScreen.storyboard in Resources */,
+				284286221CEB36A7003CF386 /* Assets.xcassets in Resources */,
+				2842861D1CEB36A7003CF386 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284286291CEB36A7003CF386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284286341CEB36A7003CF386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284286101CEB36A7003CF386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2842864C1CEB3AB6003CF386 /* ChooseClassController.swift in Sources */,
+				2809CE091CEBD05A00CD9A1B /* SubmitClassController.swift in Sources */,
+				2842864F1CEB3D3F003CF386 /* ClassSchedule.swift in Sources */,
+				284286491CEB386E003CF386 /* StaticUtilities.swift in Sources */,
+				2842861A1CEB36A7003CF386 /* HomeController.swift in Sources */,
+				284286181CEB36A7003CF386 /* AppDelegate.swift in Sources */,
+				284286201CEB36A7003CF386 /* Bright_Spirit_Yoga.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284286271CEB36A7003CF386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284286301CEB36A7003CF386 /* Bright_Spirit_YogaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284286321CEB36A7003CF386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2842863B1CEB36A7003CF386 /* Bright_Spirit_YogaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2842862D1CEB36A7003CF386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 284286131CEB36A7003CF386 /* Bright Spirit Yoga */;
+			targetProxy = 2842862C1CEB36A7003CF386 /* PBXContainerItemProxy */;
+		};
+		284286381CEB36A7003CF386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 284286131CEB36A7003CF386 /* Bright Spirit Yoga */;
+			targetProxy = 284286371CEB36A7003CF386 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2842861B1CEB36A7003CF386 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2842861C1CEB36A7003CF386 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		284286231CEB36A7003CF386 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284286241CEB36A7003CF386 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2842863D1CEB36A7003CF386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2842863E1CEB36A7003CF386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		284286401CEB36A7003CF386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bright Spirit Yoga/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bb.Bright-Spirit-Yoga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		284286411CEB36A7003CF386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bright Spirit Yoga/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bb.Bright-Spirit-Yoga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		284286431CEB36A7003CF386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bright Spirit YogaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bb.Bright-Spirit-YogaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bright Spirit Yoga.app/Bright Spirit Yoga";
+			};
+			name = Debug;
+		};
+		284286441CEB36A7003CF386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bright Spirit YogaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bb.Bright-Spirit-YogaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bright Spirit Yoga.app/Bright Spirit Yoga";
+			};
+			name = Release;
+		};
+		284286461CEB36A7003CF386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bright Spirit YogaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bb.Bright-Spirit-YogaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bright Spirit Yoga";
+			};
+			name = Debug;
+		};
+		284286471CEB36A7003CF386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bright Spirit YogaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bb.Bright-Spirit-YogaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bright Spirit Yoga";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2842860F1CEB36A7003CF386 /* Build configuration list for PBXProject "Bright Spirit Yoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2842863D1CEB36A7003CF386 /* Debug */,
+				2842863E1CEB36A7003CF386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2842863F1CEB36A7003CF386 /* Build configuration list for PBXNativeTarget "Bright Spirit Yoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284286401CEB36A7003CF386 /* Debug */,
+				284286411CEB36A7003CF386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		284286421CEB36A7003CF386 /* Build configuration list for PBXNativeTarget "Bright Spirit YogaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284286431CEB36A7003CF386 /* Debug */,
+				284286441CEB36A7003CF386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		284286451CEB36A7003CF386 /* Build configuration list for PBXNativeTarget "Bright Spirit YogaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284286461CEB36A7003CF386 /* Debug */,
+				284286471CEB36A7003CF386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2842861E1CEB36A7003CF386 /* Bright_Spirit_Yoga.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2842861F1CEB36A7003CF386 /* Bright_Spirit_Yoga.xcdatamodel */,
+			);
+			currentVersion = 2842861F1CEB36A7003CF386 /* Bright_Spirit_Yoga.xcdatamodel */;
+			path = Bright_Spirit_Yoga.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2842860C1CEB36A7003CF386 /* Project object */;
+}
