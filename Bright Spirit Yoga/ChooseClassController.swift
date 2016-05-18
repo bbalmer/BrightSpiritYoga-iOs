@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ChooseClassController: UIViewController, UITableViewDelegate, UITableViewDataSource{
 
     @IBOutlet weak var tableView: UITableView!
@@ -21,7 +22,6 @@ class ChooseClassController: UIViewController, UITableViewDelegate, UITableViewD
         classes.append(ClassSchedule(day: "Friday", startTime: "09:30", startMeridian: "AM", endTime: "10:45", endMeridian: "AM"))
         classes.append(ClassSchedule(day: "Saturday", startTime: "08:30", startMeridian: "AM", endTime: "09:45", endMeridian: "AM"))
         
-        navigationController?.navigationBar.topItem?.backBarButtonItem = UIBarButtonItem(title: "Back", style: .Plain, target: nil, action: nil)
         
     }
     

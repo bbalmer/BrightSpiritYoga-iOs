@@ -14,7 +14,7 @@ class SubmitClassController: UIViewController {
     
     @IBOutlet weak var dayOfWeek: UILabel!
     override func viewDidLoad() {
-        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title:"", style:.Plain, target:nil, action:nil)
     }
     
 }
