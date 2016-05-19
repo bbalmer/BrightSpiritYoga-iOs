@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2809CE091CEBD05A00CD9A1B /* SubmitClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2809CE081CEBD05A00CD9A1B /* SubmitClassController.swift */; };
+		2832EAC71CEC8AEC0045632C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2832EAC61CEC8AEC0045632C /* User.swift */; };
 		284286181CEB36A7003CF386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284286171CEB36A7003CF386 /* AppDelegate.swift */; };
 		2842861A1CEB36A7003CF386 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284286191CEB36A7003CF386 /* HomeController.swift */; };
 		2842861D1CEB36A7003CF386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2842861B1CEB36A7003CF386 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		2809CE081CEBD05A00CD9A1B /* SubmitClassController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitClassController.swift; sourceTree = "<group>"; };
+		2832EAC61CEC8AEC0045632C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		284286141CEB36A7003CF386 /* Bright Spirit Yoga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bright Spirit Yoga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		284286171CEB36A7003CF386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		284286191CEB36A7003CF386 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				2842864E1CEB3D3F003CF386 /* ClassSchedule.swift */,
+				2832EAC61CEC8AEC0045632C /* User.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				2809CE091CEBD05A00CD9A1B /* SubmitClassController.swift in Sources */,
 				2842864F1CEB3D3F003CF386 /* ClassSchedule.swift in Sources */,
 				284286491CEB386E003CF386 /* StaticUtilities.swift in Sources */,
+				2832EAC71CEC8AEC0045632C /* User.swift in Sources */,
 				2842861A1CEB36A7003CF386 /* HomeController.swift in Sources */,
 				284286181CEB36A7003CF386 /* AppDelegate.swift in Sources */,
 				284286201CEB36A7003CF386 /* Bright_Spirit_Yoga.xcdatamodeld in Sources */,
